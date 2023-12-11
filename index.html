@@ -29,7 +29,7 @@
     ></script>
   </head>
   <body>
-    <section class="block block--dark">
+    <section data-aos="fade-down" class="block block--dark">
       <div class="">
         <header class="block__header hero__content">
           <h1 class="block__heading hero__heading">Beginners aan de Zijlijn</h1>
@@ -37,7 +37,7 @@
         <img src="images/Header.jpg" alt="" class="hero__image" />
       </div>
     </section>
-    <section class="block container welcome">
+    <section data-aos="fade-up" class="block container welcome">
       <header class="block__header">
         <h2 class="welcome--header">Rugby</h2>
         <h4>(Rugby Union)</h4>
@@ -69,7 +69,7 @@
           </div>
         </div>
       </section>
-      <article class="grid grid--1x2 feature">
+      <article data-aos="fade-left" class="grid grid--1x2 feature">
         <div class="feature__content">
           <h3 class="feature__heading">Beginselen</h3>
           <p>
@@ -84,7 +84,7 @@
           <img class="feature__image" src="images/equipment.jpg" />
         </picture>
       </article>
-      <article class="grid grid--1x2 feature">
+      <article data-aos="fade-right" class="grid grid--1x2 feature">
         <div class="feature__content">
           <h3 class="feature__heading">Puntentelling</h3>
           <p>
@@ -104,7 +104,7 @@
           <img class="feature__image" src="images/Posts.jpg" />
         </picture>
       </article>
-      <article class="grid grid--1x2 feature">
+      <article data-aos="fade-left" class="grid grid--1x2 feature">
         <div class="feature__content">
           <h3 class="feature__heading">Spelers</h3>
           <p>
@@ -133,7 +133,7 @@
           />
         </picture>
       </article>
-      <article class="grid grid--1x2 feature">
+      <article data-aos="fade-right" class="grid grid--1x2 feature">
         <div class="feature__content">
           <h3 class="feature__heading">Verdedigen</h3>
           <p>
@@ -148,7 +148,7 @@
           <img class="feature__image" src="images/tackle.jpg" />
         </picture>
       </article>
-      <article class="grid grid--1x2 feature">
+      <article data-aos="fade-left" class="grid grid--1x2 feature">
         <div class="feature__content">
           <h3 class="feature__heading">Praktische informatie</h3>
           <p>
@@ -167,7 +167,7 @@
       </article>
     </section>
     <section>
-      <section class="block block--white hero">
+      <section data-aos="zoom-in" class="block block--white hero">
         <div class="container grid grid--1x2">
           <header class="block__header hero__content">
             <h1 class="block__heading color__header">Regels van de sport</h1>
@@ -189,15 +189,15 @@
             </li>
             <br />
             <li class="list--tick">
-              De bal mag wel naar voren geschopt worden. Zo maak je veel
-              terreinwinst, maar verlies je de bal.
+              De bal mag wel naar voren worden geschopt. Zo maak je veel
+              terreinwinst, maar je hebt een grote kans dat je de bal verliest.
             </li>
             <br />
             <li class="list--tick">
               Lichte overtredingen, zoals naar voren gooien, worden bestraft met
               een scrum. Dit is een spelhervatting die erg zwaar is. Beide
               voorwaartsen gaan tegenover elkaar staan en proberen het andere
-              team over de bal weg te duwen. (Kijk foto)
+              team over de bal weg te duwen.
             </li>
             <br />
             <li class="list--tick">
@@ -214,13 +214,13 @@
               <div class="red-card">
                 Een rode kaart betekend dat je de hele wedstrijd eruit gaat.
               </div>
-              Je team speelt dan dus met 14 man.
+              Je team speelt dan dus in beide gevallen met 14 man.
             </li>
             <br />
             <li class="list--tick">
-              Gaat de bal uit, dan wordt er door beide teams een line-out
-              gevormd, en mag de tegenstander ingooien. Hierbij worden spelers
-              de lucht in getild om zo de bal te vangen. (Zie foto)
+              Gaat de bal uit, dan wordt er door beide teams een lineout gevormd
+              en mag de tegenstander ingooien. Hierbij worden spelers de lucht
+              in getild om zo de bal te vangen.
             </li>
             <br />
             <li class="list--tick">
@@ -243,7 +243,28 @@
       </section>
     </section>
     <section>
-      <footer></footer>
+      <div class="grid grid--1x2 feature">
+        <div>
+          <h3 class="grid__s-l-header">scrum</h3>
+          <img src="images/scrum.jpg" alt="" />
+          <img src="images/scrum2.jpg" alt="" />
+        </div>
+        <div>
+          <h3 class="grid__s-l-header">lineout</h3>
+          <img src="images/lineout.jpg" alt="" />
+        </div>
+      </div>
     </section>
+    <section>
+      <footer>
+        <p class="footer--text">
+          &copy; Stijn Koopmans, Vrije School Zutphen 2023 Eindwerkstuk
+        </p>
+      </footer>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

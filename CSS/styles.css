@@ -652,3 +652,16 @@
     #4d87e3
     ;
  }
+
+ .grid__s-l-header {
+    text-align: center;
+    color: white;
+ }
+
+ /* Footer */
+
+ .footer--text {
+    color: white;
+    margin-left: 5rem;
+ }
+
