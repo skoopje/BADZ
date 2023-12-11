@@ -1,7 +1,7 @@
 :root {
     --color-primary: #2584ff;
     --color-secondary: #00d9ff;
-    --color-accent: #ff3400;
+    --color-accent: tomato;
     --color-headings: #1b0760;
     --color-body: #918ca4;
     --color-body-darker: #5c5577;
@@ -764,6 +764,10 @@
     gap: 4rem 2rem;
     margin: 12rem 0;
   }
+
+  .feature__content {
+    color: #ded8d1;
+  }
   
   .feature:first-of-type {
     margin-top: 6rem;
@@ -771,11 +775,16 @@
   
   .feature__heading {
     margin: 1rem 0;
-    color: white;
+    color: var(--color-accent);
+
   }
 
   .feature__image {
     border-radius: 5px;
+  }
+
+  .feature__image-forwards {
+    margin-top: 5rem;
   }
   
   @media screen and (min-width: 768px) {
